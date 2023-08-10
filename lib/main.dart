@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'LoginScreens/login_screen_one.dart';
+import 'RandonUIScreens/screen_one';
+
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LoginScreenOne(),
+      home: const ScreenOne(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
