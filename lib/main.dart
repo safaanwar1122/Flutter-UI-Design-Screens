@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'RandonUIScreens/screen_one';
+import 'package:ui_designs_flutter/screen_one.dart';
 
 
 void main() {
