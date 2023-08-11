@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:ui_designs_flutter/screen_one.dart';
 
 import 'FoodAppUI/starter.dart';
+import 'PlantScenaryUI/plant_screen_one.dart';
+import 'PlantScenaryUI/plant_screen_two.dart';
 import 'TravelUIScreens/travel_screen_one.dart';
 import 'TravelUIScreens/travel_screen_two.dart';
 
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const TravelScreenTwo(),
+      home: const PlantUIScreenTwo(),
       debugShowCheckedModeBanner: false,
     );
   }

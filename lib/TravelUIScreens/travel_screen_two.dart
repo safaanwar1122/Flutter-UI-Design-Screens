@@ -347,7 +347,7 @@ class _TravelScreenTwoState extends State<TravelScreenTwo> {
                                   child: Row(
                                     children: const [
                                       Icon(
-                                        Icons.location_on,
+                                        Icons.dangerous,
                                         color: Colors.amber,
                                         size: 16,
                                       ),
