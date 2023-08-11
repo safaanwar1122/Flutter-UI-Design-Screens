@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'homepage.dart';
 
 class StarterPage extends StatefulWidget {
   const StarterPage({Key? key}) : super(key: key);
@@ -68,7 +67,6 @@ class _StarterPageState extends State<StarterPage> {
                         )),
                     child: MaterialButton(
                       onPressed: () {
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>MenuePage()));
 
                       },
                       minWidth: double.infinity,
