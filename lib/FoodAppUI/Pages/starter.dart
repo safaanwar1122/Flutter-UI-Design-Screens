@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'homepage.dart';
+
 class StarterPage extends StatefulWidget {
   const StarterPage({Key? key}) : super(key: key);
 
@@ -32,6 +34,8 @@ class _StarterPageState extends State<StarterPage> {
           child: Padding(
             padding: EdgeInsets.all(20),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Text('Taking Order For Faster Delivery',
                     style: TextStyle(
@@ -49,6 +53,42 @@ class _StarterPageState extends State<StarterPage> {
                 ),
                 SizedBox(
                   height: 100,
+                ),
+                Center(
+                  child: Container(
+                    width: 100,
+                    height: 30,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        gradient: LinearGradient(
+                          colors: [
+                            Colors.yellow,
+                            Colors.orange,
+                          ],
+                        )),
+                    child: MaterialButton(
+                      onPressed: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>MenuePage()));
+
+                      },
+                      minWidth: double.infinity,
+                      child: Text('Start', style: TextStyle(color: Colors.black)),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 30,
+                ),
+                Container(
+                  child: Align(
+                    child: Text(
+                      "Now Deliver To Your Door 24/7",
+                      style: TextStyle(color: Colors.white70, fontSize: 15),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 30,
                 ),
               ],
             ),
