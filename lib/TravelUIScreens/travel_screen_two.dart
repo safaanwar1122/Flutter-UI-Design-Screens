@@ -74,7 +74,7 @@ class _TravelScreenTwoState extends State<TravelScreenTwo> {
                                         borderRadius:
                                         BorderRadius.circular(10.0),
                                         child: Image.network(
-                                          "https://media-cdn.tripadvisor.com/media/photo-s/14/bb/b1/f7/caption.jpg",
+                                          "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80",
                                           fit: BoxFit.cover,
                                         ),
                                       ),
@@ -103,7 +103,7 @@ class _TravelScreenTwoState extends State<TravelScreenTwo> {
                                 Padding(
                                   padding: const EdgeInsets.only(top: 10.0),
                                   child: const Text(
-                                    "Trekking",
+                                    "Mountain Ground",
                                     style: TextStyle(
                                         fontSize: 22,
                                         fontWeight: FontWeight.w500),
@@ -141,7 +141,7 @@ class _TravelScreenTwoState extends State<TravelScreenTwo> {
                                         borderRadius:
                                         BorderRadius.circular(10.0),
                                         child: Image.network(
-                                          "https://media-cdn.tripadvisor.com/media/photo-s/14/bb/b1/f7/caption.jpg",
+                                          "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80",
                                           fit: BoxFit.cover,
                                         ),
                                       ),
@@ -170,7 +170,7 @@ class _TravelScreenTwoState extends State<TravelScreenTwo> {
                                 Padding(
                                   padding: const EdgeInsets.only(top: 10.0),
                                   child: const Text(
-                                    "Trekking",
+                                    "Top",
                                     style: TextStyle(
                                         fontSize: 22,
                                         fontWeight: FontWeight.w500),
@@ -205,8 +205,9 @@ class _TravelScreenTwoState extends State<TravelScreenTwo> {
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(16.0),
                                     child: Image.network(
-                                      "https://media-cdn.tripadvisor.com/media/photo-s/14/bb/b1/f7/caption.jpg",
-                                      fit: BoxFit.cover,
+                                      "https://images.unsplash.com/photo-1589802829985-817e51171b92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8&w=1000&q=80",
+
+                                       fit: BoxFit.cover,
                                     ),
                                   ),
                                 ),
@@ -284,7 +285,7 @@ class _TravelScreenTwoState extends State<TravelScreenTwo> {
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(16.0),
                                     child: Image.network(
-                                      "https://i.pinimg.com/originals/d3/45/11/d3451114ab4e1d55ead624930bcff60c.jpg",
+                                      "https://images.unsplash.com/photo-1589802829985-817e51171b92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8&w=1000&q=80",
                                       fit: BoxFit.cover,
                                     ),
                                   ),
@@ -292,7 +293,7 @@ class _TravelScreenTwoState extends State<TravelScreenTwo> {
                                 Padding(
                                   padding: const EdgeInsets.only(top: 10.0),
                                   child: const Text(
-                                    "Trekking",
+                                    "Peak",
                                     style: TextStyle(
                                         fontSize: 22,
                                         fontWeight: FontWeight.w500),
@@ -326,8 +327,8 @@ class _TravelScreenTwoState extends State<TravelScreenTwo> {
                                   height: 220,
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(16.0),
-                                    child: Image.network(
-                                      "https://media-cdn.tripadvisor.com/media/photo-s/14/bb/b1/f7/caption.jpg",
+                                    child: Image.network("https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80",
+
                                       fit: BoxFit.cover,
                                     ),
                                   ),
@@ -335,7 +336,7 @@ class _TravelScreenTwoState extends State<TravelScreenTwo> {
                                 Padding(
                                   padding: const EdgeInsets.only(top: 10.0),
                                   child: const Text(
-                                    "Trekking",
+                                    "Hiking",
                                     style: TextStyle(
                                         fontSize: 22,
                                         fontWeight: FontWeight.w500),
