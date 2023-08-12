@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ui_designs_flutter/screen_one.dart';
 
+import 'CelebrityProfile/diana_profile.dart';
 import 'FoodAppUI/starter.dart';
 import 'PlantScenaryUI/plant_screen_one.dart';
 import 'PlantScenaryUI/plant_screen_two.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const PlantUIScreenTwo(),
+      home: DianaProfileScreen(),
       debugShowCheckedModeBanner: false,
     );
   }

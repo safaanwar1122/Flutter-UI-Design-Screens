@@ -114,8 +114,12 @@ class PlantUIScreenTwo extends StatelessWidget {
                         ),
                         Center(
                           child: GestureDetector(
-                            onTap: (){
-                              Navigator.push(context, MaterialPageRoute(builder: (context)=>PlantUIScreenOne()));
+                            onTap: () {
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) =>
+                                          PlantUIScreenOne()));
                             },
                             child: Container(
                               alignment: Alignment.center,
@@ -124,7 +128,6 @@ class PlantUIScreenTwo extends StatelessWidget {
                               decoration: BoxDecoration(
                                 color: Colors.black87,
                                 borderRadius: BorderRadius.circular(16),
-
                               ),
                               child: Text(
                                 "Read Me",
