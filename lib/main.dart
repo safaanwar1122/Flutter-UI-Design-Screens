@@ -7,6 +7,7 @@ import 'PlantScenaryUI/plant_screen_one.dart';
 import 'PlantScenaryUI/plant_screen_two.dart';
 import 'TravelUIScreens/travel_screen_one.dart';
 import 'TravelUIScreens/travel_screen_two.dart';
+import 'hello.dart';
 
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: DianaProfileScreen(),
+      home: hi(),
       debugShowCheckedModeBanner: false,
     );
   }
